@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.kuhnjosh</groupId>
-    <artifactId>extrahop.passwd</artifactId>
+    <artifactId>jersey-quickstart</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>extrahop.passwd</name>
+    <name>jersey-quickstart</name>
 
     <build>
-        <finalName>extrahop.passwd</finalName>
+        <finalName>jersey-quickstart</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
