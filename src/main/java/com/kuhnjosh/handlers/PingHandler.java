@@ -1,3 +1,5 @@
+/* Copyright 2019, Joshua M. Kuhn.  All Rights Reserved. */
+
 package com.kuhnjosh.handlers;
 
 import javax.ws.rs.GET;
@@ -6,7 +8,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 @Path("ping")
-public class Ping {
+public class PingHandler {
 
     /**
      * Method handling HTTP GET requests. The returned object will be sent
@@ -16,7 +18,7 @@ public class Ping {
      */
     @GET
     @Produces(MediaType.TEXT_PLAIN)
-    public String getIt() {
+    public String ping() {
         return "OK";
     }
 }
